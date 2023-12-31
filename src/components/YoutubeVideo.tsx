@@ -10,13 +10,19 @@ const YouTubeVideo: React.FC<YouTubeVideoProps> = ({ videoId }) => {
     height: "390",
     width: "640",
     playerVars: {
-      // You can customize player parameters here, such as autoplay, controls, etc.
       autoplay: 0,
     },
   };
 
+  const videoContainerStyle = {
+    display: 'flex',
+    justifyContent: 'center', // Center horizontally
+    alignItems: 'center',     // Center vertically
+    height: '100vh',          // Take full viewport height
+  };
+
   return (
-    <div className="youtube-video">
+    <div className="youtube-video" style={videoContainerStyle}>
       <YouTube videoId={videoId} opts={opts} />
     </div>
   );

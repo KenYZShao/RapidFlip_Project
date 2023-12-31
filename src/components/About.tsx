@@ -22,19 +22,19 @@ const About: React.FC = () => {
             <h2 className="featurette-heading fw-normal lh-1">
               {'About Us'}
             </h2>
-            <p className="lead">
+            <p className="lead problem">
             Making Games with
             </p>
-            <p className="lead">
+            <p className="lead problem">
               Enlightment
             </p>
-            <p className="lead">
+            <p className="lead problem">
               Encouragement
             </p>
-            <p className="lead">
+            <p className="lead problem">
               Enterainment
             </p>
-            <p className="lead">
+            <p className="lead problem">
               Confident
             </p>
           </div>
@@ -103,7 +103,7 @@ const About: React.FC = () => {
         <div className="row featurette">
           <div className="col-md-5">
             <h2 className="featurette-heading fw-normal lh-1">
-              Our Solution{" "}
+              Community Iteration{" "}
             </h2>
             <p className="lead problem">
             Developing games with kids, parents, school teachers and psychologists to iterate the best gameplay functions

@@ -6,17 +6,20 @@ import VideoBackground from "./components/VideoBackground";
 import About from "./components/About";
 
 import Contact from "./components/contact";
+import YouTubeVideo from "./components/YoutubeVideo";
+import Header from "./components/Header";
 
 const App: React.FC = () => {
   return (
     <Router>
+      <Header />
       <VideoBackground />
       <About></About>
-      {/* <YouTubeVideo videoId="iI_-zHxweIs" /> */}
       <Routes>
         <Route path="/about" element={<About />} />
       </Routes>
       {/* <TeamMembers /> */}
+      <YouTubeVideo videoId="sWZ17Yc379I" /> 
       <Contact />
     </Router>
   );

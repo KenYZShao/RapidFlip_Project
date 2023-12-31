@@ -1,0 +1,17 @@
+.nav {
+    height: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px){
+    .nav {
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        flex-grow: 2;
+        justify-content: space-around;
+        justify-content: space-between;
+    }
+}
