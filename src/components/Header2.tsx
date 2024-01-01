@@ -1,7 +1,7 @@
 import './Header2.css'; 
 import logo from '../Media/favicon_io/LOGO32X32.png'
 
-const Header2 = () => {
+const Header2: React.FC  = () => {
   return (
     <div id="wrap-header" className="wrap-header">
     <div id="header" className="header">
