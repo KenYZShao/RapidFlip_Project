@@ -6,7 +6,7 @@ const Header2: React.FC  = () => {
     <div id="wrap-header" className="wrap-header">
     <div id="header" className="header">
         <div id="logo" className="logo">
-            <h1><a className="current" href="/About">Infinite Game <span /></a></h1>
+            <h1><a className="current" href="/">Infinite Game <span /></a></h1>
         </div>
 
         <div className="nav">
@@ -22,9 +22,9 @@ const Header2: React.FC  = () => {
 
             <div className="mainmenu">
                 <ul>
-                    <li className="current"><a href="/About" className="menu01"><span>Home </span></a></li>
-                    <li><a href="/Books" className="menu02"><span>Books </span></a></li>
-                    <li><a href="/Games" className="menu03"><span>Games</span></a></li>
+                    <li className="current"><a href="/" className="menu01"><span>Home </span></a></li>
+                    <li><a href="/books" className="menu02"><span>Books </span></a></li>
+                    <li><a href="/games" className="menu03"><span>Games</span></a></li>
                 </ul>
             </div> 
         </div> 

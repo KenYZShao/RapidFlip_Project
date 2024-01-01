@@ -23,8 +23,8 @@ const Header = () => {
           </div>
         <div className='mainmenu'>
           <ul>
-            <a href="/home">Home<span /></a>
-            <a href="/about">Books<span /></a>
+            <a href="/">Home<span /></a>
+            <a href="/books">Books<span /></a>
             <a href="/games">Games<span /></a>
           </ul>
 

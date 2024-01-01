@@ -6,9 +6,10 @@ import Contact from "../../contact.tsx"
 const Home:React.FC = () => {
     return (
         <div>
-        <VideoBackground />
-        <About></About>
-        <YouTubeVideo videoId="sWZ17Yc379I" /> 
+            <VideoBackground />
+            <About></About>
+            <YouTubeVideo videoId="sWZ17Yc379I" /> 
+            <Contact />
         </div>
 
     );
