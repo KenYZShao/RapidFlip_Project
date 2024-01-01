@@ -1,12 +1,12 @@
 import './Header2.css'; 
-import logo from '../Media/favicon_io/LOGO192X192.png'
+import logo from '../Media/favicon_io/LOGO32X32.png'
 
 const Header2 = () => {
   return (
     <div id="wrap-header" className="wrap-header">
     <div id="header" className="header">
         <div id="logo" className="logo">
-            <h1><a className="current" href="https://amanita-design.net/index.html">Amanita Design<span> </span></a></h1>
+            <h1><a className="current" href="/About">Infinite Game <span /></a></h1>
         </div>
 
         <div className="nav">

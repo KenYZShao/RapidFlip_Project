@@ -1,6 +1,4 @@
-@import url(main.css);.flickity-enabled {
-    position: relative
-}
+@import url(main.css);
 
 
 *,:after,:before {
@@ -163,88 +161,14 @@
     }
 }
 
-.nav-switch {
-    display: none
-}
-
-.hamburger {
-    display: block;
-    visibility: visible;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
-    overflow: hidden;
-    width: 60px;
-    height: 60px;
-    font-size: 0;
-    text-indent: -9999px;
-    cursor: pointer
-}
-
-@media screen and (min-width: 48.1rem) {
-    .hamburger {
-        display:none;
-        visibility: hidden
-    }
-}
-
-@media screen and (min-width: 40.1rem) {
-    .hamburger {
-        top:10px
-    }
-}
-
-[type=checkbox]:checked~label~.nav {
-    cursor: pointer;
-    height: 360px
-}
-
-@media screen and (orientation: landscape) {
-    [type=checkbox]:checked~label~.nav {
-        height:auto
-    }
-}
-
-.hamburger span {
-    top: 29px;
-    left: 18px;
-    right: 18px
-}
-
-.hamburger span,.hamburger span:after,.hamburger span:before {
-    display: block;
-    position: absolute;
-    height: 2px;
-    background-color: #5c5b59
-}
-
-.hamburger span:after,.hamburger span:before {
-    left: 0;
-    width: 100%;
-    content: ""
-}
-
-.hamburger span:before {
-    top: -7px
-}
-
-.hamburger span:after {
-    bottom: -7px
-}
-
 .logo span {
     width: 200%;
-    background: url(../img/menu/amanita-design-logo.svg) 0 0 no-repeat;
+    background: url(../Media/menu/infiniteGameLogo.svg) 0 0 no-repeat;
     background-size: 150% 100%
 }
 
-.logo a:hover span {
-    background-position: 150% top
-}
-
 .social li a {
-    background: url(../img/menu/fb-g-tw-yt.svg) 0 0 no-repeat;
+    background: url(../Media/Images/fb-g-tw-yt.svg) 0 0 no-repeat;
     background-size: 500% 100%
 }
 
@@ -252,20 +176,20 @@
     background-position: -140px 0
 }
 
-.menu02 span,.menu03 span,.menu04 span,.menu05 span,.menu08 span {
+.menu01 span,.menu02 span,.menu03 span,.menu04 span,.menu05 span,.menu08 span {
     background-size: 100% 200%
 }
 
 .menu01 span {
-    text-indent:0;
+    background-image: url(../Media/menu/home.svg)
 }
 
 .menu02 span {
-    text-indent:0;
+    background-image: url(../Media/menu/books.svg)
 }
 
 .menu03 span {
-    text-indent:0;
+    background-image: url(../Media/menu/games.svg)
 }
 
 .menu04 span {
@@ -276,13 +200,6 @@
     background-image: url(../img/menu/merch-3.svg)
 }
 
-.menu08 {
-    width: 88px
-}
-
-.menu08 span {
-    background-image: url(../img/menu/contact-4.svg)
-}
 
 .logo-header,.nav {
     transition: height .35s ease-out

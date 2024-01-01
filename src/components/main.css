@@ -1,5 +1,11 @@
 @charset "UTF-8";
-
+ ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
 /*---------------------------------------------------------------------------*/
 /*  03: Header a Menu
@@ -41,7 +47,7 @@
   color: #000; }
 
 .logo span {
-  background-image: url(../Media/favicon_io/favicon-32x32.png);
+  background-image: url(../Media/menu/infiniteGameLogo.svg);
   background-position: left top;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -56,9 +62,6 @@
   visibility: visible;
   /* --- IE6 bugfix --- */ }
 
-.logo a:hover span {
-  /*background-position: right top; */
-  background-position: -340px top; }
 
 /* Social */
 .social {
@@ -76,7 +79,7 @@
   display: block;
   width: 35px;
   height: 50px;
-  background: url(../img/menu/fb-g-tw.png) left top no-repeat;
+  background: url(../Media/Images/fb-g-tw-yt.svg) left top no-repeat;
   text-indent: -9999px;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=45)";
   filter: alpha(opacity=45);
@@ -146,12 +149,19 @@
   background-position: left bottom; }
 
 .menu01 {
-  width: 90px; }
+  width: 76px; }
 
+.menu01 span {
+  background-image: url(../Media/menu/home.svg); }
 
 .menu02 {
-  width: 90px; }
+  width: 79px; }
 
+.menu02 span {
+  background-image: url(../Media/menu/books.svg); }
 
 .menu03 {
-  width: 90px; }
+  width: 85px; }
+
+.menu03 span {
+  background-image: url(../Media/menu/games.svg); }
