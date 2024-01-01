@@ -4,12 +4,15 @@ import logo from '../Media/favicon_io/LOGO192X192.png'
 const Header = () => {
   return (
     <header className="header">
-      <div className="header-logo">
-        <a href="/" title="Home">
-          <img src = {logo} alt="Infinite Game"  />
-          Infinite Game
+      <div  className="header-logo">
+        <a className="current" href = "index.html">
+          <span />
         </a>
-        <div className='social'>
+
+      </div>
+
+      <nav className="header-nav">
+      <div className='social'>
             <ul>
               <li><a href="https://www.facebook.com/Amanita.Design" className="facebook">Facebook</a></li>
               <li><a href="https://www.instagram.com/amanita_design_" className="instagram">Instagram</a></li>
@@ -18,13 +21,9 @@ const Header = () => {
             <li><a href="https://www.youtube.com/c/amanitadesign/featured" className="youtube">Youtube</a></li>
             </ul>
           </div>
-      </div>
-
-      <nav className="header-nav">
-
         <div className='mainmenu'>
           <ul>
-          <li><a href="/home">Home<span /></a></li>
+            <a href="/home">Home<span /></a>
             <a href="/about">Books<span /></a>
             <a href="/games">Games<span /></a>
           </ul>
