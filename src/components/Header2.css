@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This will space out your logo, nav, and icons */
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 0 10px; /* Add padding to ensure content is not flush against screen edges */
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center; /* This will vertically center the text within the logo area */
+    justify-content: center; /* This will horizontally center the text within the logo area */
+    margin: 0;
+    padding: 0;
+    flex-grow: 1; /* This will allow the logo to grow and take up space */
+  }
+  
+  .header-logo a {
+    display: flex;
+    align-items: center; /* Align the image and text */
+    justify-content: center; /* Center the content */
+    text-decoration: none;
+    color: white;
+  }
+  
+  .header-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 2; /* Gives more room for nav items */
+  }
+  
+  .social, .mainmenu {
+    display: flex;
+    align-items: center;
+    list-style: none; /* Removes default list styling */
+    padding: 0;
+    margin: 0 10px; /* Add some spacing around the nav items */
+  }
+  
+  .social li a, .mainmenu a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px; /* Adds horizontal padding */
+    display: flex;
+    align-items: center;
+    height: 100%; /* Sets anchor height to fill the parent li */
+  }
+
+  .social li a {
+    text-indent: -9999px;
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Your existing CSS for hover effects, transitions, and media queries */
+  

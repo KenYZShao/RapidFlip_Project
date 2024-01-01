@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <header className="header">
       <div  className="header-logo">
-        <a className="current" href = "index.html">
-          <span />
+        <a href="/" title="Home">
+          <img src = {logo} alt="Infinite Game"  />
+          <span>Infinite Game</span>
         </a>
-
       </div>
 
       <nav className="header-nav">
