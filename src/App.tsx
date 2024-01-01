@@ -7,7 +7,7 @@ import About from "./components/About";
 
 import Contact from "./components/contact";
 import YouTubeVideo from "./components/YoutubeVideo";
-import Header2 from "./components/Header2.css";
+import Header2 from "./components/Header2.tsx";
 
 const App: React.FC = () => {
   return (

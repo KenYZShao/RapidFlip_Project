@@ -12,24 +12,19 @@ const Header2 = () => {
         <div className="nav">
             <div className="social">
                 <ul>
-                    <li><a href="https://www.facebook.com/Amanita.Design" class="facebook">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/amanita_design_" class="instagram">Instagram</a></li>
-                    <li><a href="https://twitter.com/Amanita_Design" class="twitter">Twitter</a></li>
-                    <li><a href="https://discordapp.com/invite/Gr4Ec6K" class="discord">Discord</a></li>
-					<li><a href="https://www.youtube.com/c/amanitadesign/featured" class="youtube">Youtube</a></li>
+                    <li><a href="https://www.facebook.com/Amanita.Design" className="facebook">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/amanita_design_" className="instagram">Instagram</a></li>
+                    <li><a href="https://twitter.com/Amanita_Design" className="twitter">Twitter</a></li>
+                    <li><a href="https://discordapp.com/invite/Gr4Ec6K" className="discord">Discord</a></li>
+					<li><a href="https://www.youtube.com/c/amanitadesign/featured" className="youtube">Youtube</a></li>
                 </ul>
             </div>
 
             <div className="mainmenu">
                 <ul>
-                   
-                    <li className="current"><a href="https://amanita-design.net/index.html" class="current menu01">Home<span> </span></a></li>
-                    <li><a href="https://amanita-design.net/about.html" class="menu02">About<span> </span></a></li>
-                    <li><a href="https://amanita-design.net/games.html" class="menu03">Games<span> </span></a></li>
-                
-                    <li><a href="https://merch.amanita-design.net/" target="_blank" class="menu05">Merch<span> </span></a></li>
-
-                    <li><a href="https://amanita-design.net/contact.html" class="menu08">Contact<span> </span></a></li>
+                    <li className="current"><a href="/About" className="menu01"><span>Home </span></a></li>
+                    <li><a href="/Books" className="menu02"><span>Books </span></a></li>
+                    <li><a href="/Games" className="menu03"><span>Games</span></a></li>
                 </ul>
             </div> 
         </div> 

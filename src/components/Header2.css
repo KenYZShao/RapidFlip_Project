@@ -1,0 +1,316 @@
+@import url(main.css);.flickity-enabled {
+    position: relative
+}
+
+
+*,:after,:before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0
+}
+
+.wrap-header {
+    min-height: 60px;
+    height: auto;
+    position: absolute;
+    z-index: 100;
+    width: 100%
+}
+
+@media screen and (min-width: 40.1rem) {
+    .wrap-header {
+        min-height:80px
+    }
+}
+
+@media screen and (min-width: 48.1rem) {
+    .wrap-header {
+        position:relative;
+        min-height: 60px
+    }
+}
+
+.header {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center
+}
+
+@media screen and (min-width: 40.1rem) {
+    .header {
+        padding:10px 0
+    }
+}
+
+@media screen and (min-width: 48.1rem) {
+    .header {
+        padding:0;
+        justify-content: flex-start
+    }
+}
+
+.logo {
+    float: none;
+    margin-left: 10px;
+    overflow: hidden;
+    padding: 0
+}
+
+.nav {
+    height: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+@media screen and (min-width: 48.1rem) {
+    .nav {
+        flex-direction:row;
+        height: auto;
+        width: auto;
+        flex-grow: 2;
+        justify-content: space-around;
+        justify-content: space-between
+    }
+}
+
+.mainmenu {
+    width: 100%;
+    float: none;
+    margin: 0 0 20px;
+    order: 1
+}
+
+@media screen and (min-width: 48.1rem) {
+    .mainmenu {
+        order:2;
+        width: auto;
+        flex-grow: 0.8;
+        flex-grow: 1;
+        padding: 0;
+        margin: 0 20px 0 0
+    }
+}
+
+.mainmenu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+@media screen and (orientation: portrait) {
+    .mainmenu ul {
+        justify-content:flex-start
+    }
+}
+
+@media screen and (min-width: 48.1rem) {
+    .mainmenu ul {
+        flex-direction:row
+    }
+}
+
+.mainmenu ul li {
+    float: none;
+    display: flex;
+    justify-content: center
+}
+
+
+.social {
+    float: none;
+    width: auto;
+    margin: 0;
+    order: 2
+}
+
+@media screen and (min-width: 48.1rem) {
+    .social {
+        order:1
+    }
+}
+
+.social ul {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%
+}
+
+@media screen and (min-width: 48.1rem) {
+    .social ul {
+        width:auto;
+        justify-content: flex-start
+    }
+}
+
+.social ul li {
+    float: none;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end
+}
+
+@media screen and (min-width: 48.1rem) {
+    .social ul li {
+        justify-content:flex-start;
+        width: 35px;
+        height: 50px
+    }
+}
+
+.nav-switch {
+    display: none
+}
+
+.hamburger {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    font-size: 0;
+    text-indent: -9999px;
+    cursor: pointer
+}
+
+@media screen and (min-width: 48.1rem) {
+    .hamburger {
+        display:none;
+        visibility: hidden
+    }
+}
+
+@media screen and (min-width: 40.1rem) {
+    .hamburger {
+        top:10px
+    }
+}
+
+[type=checkbox]:checked~label~.nav {
+    cursor: pointer;
+    height: 360px
+}
+
+@media screen and (orientation: landscape) {
+    [type=checkbox]:checked~label~.nav {
+        height:auto
+    }
+}
+
+.hamburger span {
+    top: 29px;
+    left: 18px;
+    right: 18px
+}
+
+.hamburger span,.hamburger span:after,.hamburger span:before {
+    display: block;
+    position: absolute;
+    height: 2px;
+    background-color: #5c5b59
+}
+
+.hamburger span:after,.hamburger span:before {
+    left: 0;
+    width: 100%;
+    content: ""
+}
+
+.hamburger span:before {
+    top: -7px
+}
+
+.hamburger span:after {
+    bottom: -7px
+}
+
+.logo span {
+    width: 200%;
+    background: url(../img/menu/amanita-design-logo.svg) 0 0 no-repeat;
+    background-size: 150% 100%
+}
+
+.logo a:hover span {
+    background-position: 150% top
+}
+
+.social li a {
+    background: url(../img/menu/fb-g-tw-yt.svg) 0 0 no-repeat;
+    background-size: 500% 100%
+}
+
+.social li a.youtube {
+    background-position: -140px 0
+}
+
+.menu02 span,.menu03 span,.menu04 span,.menu05 span,.menu08 span {
+    background-size: 100% 200%
+}
+
+.menu01 span {
+    text-indent:0;
+}
+
+.menu02 span {
+    text-indent:0;
+}
+
+.menu03 span {
+    text-indent:0;
+}
+
+.menu04 span {
+    background-image: url(../img/menu/store-3.svg)
+}
+
+.menu05 span {
+    background-image: url(../img/menu/merch-3.svg)
+}
+
+.menu08 {
+    width: 88px
+}
+
+.menu08 span {
+    background-image: url(../img/menu/contact-4.svg)
+}
+
+.logo-header,.nav {
+    transition: height .35s ease-out
+}
+
+.nav li {
+    opacity: 0
+}
+
+@media screen and (min-width: 48.1rem) {
+    .nav li {
+        opacity:1
+    }
+}
+
+
+
+.content,.footer,.header {
+    width: 100%;
+    max-width: 960px;
+    max-width: 60rem;
+    margin: 0 auto
+}
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
