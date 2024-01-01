@@ -7,12 +7,12 @@ import About from "./components/About";
 
 import Contact from "./components/contact";
 import YouTubeVideo from "./components/YoutubeVideo";
-import Header from "./components/Header";
+import Header2 from "./components/Header2.css";
 
 const App: React.FC = () => {
   return (
     <Router>
-      <Header />
+      <Header2 />
       <VideoBackground />
       <About></About>
       <Routes>
