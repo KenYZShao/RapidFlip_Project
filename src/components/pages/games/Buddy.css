@@ -1,0 +1,36 @@
+body{
+    min-height: 100%;
+    margin-bottom: -60px;
+    background: #181815 url(../../../Media/background/background.png) repeat; 
+  }
+
+.content--game {
+    min-height: 100%;
+    margin-bottom: -60px;
+}
+.game-content-container{
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s{
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline; 
+    }
+    
+}
+
+.storefronts-item-link--steam {
+    background-image: url(../../../Media/shop/steam.svg);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    display: block; 
+    width: 100px; 
+    height: 50px; 
+    text-indent: -9999px; 
+    overflow: hidden; 
+}
+
